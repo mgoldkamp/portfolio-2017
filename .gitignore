@@ -1,4 +1,4 @@
-
+_site
 .idea
 node_modules
 
@@ -6,6 +6,8 @@ node_modules
 
 .sass-cache/
 .jekyll-metadata
+_site
+
 
 ### OSX ###
 *.DS_Store
