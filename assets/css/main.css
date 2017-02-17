@@ -403,4 +403,14 @@ template {
   display: none; }
 
 body {
-  background: orange; }
+  background: #aaaaaa;
+  font-family: 'Work Sans', sans-serif; }
+
+.pl-container {
+  margin: 0 auto;
+  width: 60%;
+  color: white;
+  text-align: center;
+  margin-top: 200px; }
+  .pl-container h2 {
+    font-weight: 300; }

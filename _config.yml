@@ -1,3 +1,3 @@
-name: Design Code Test
+name: Michael Goldkamp
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
