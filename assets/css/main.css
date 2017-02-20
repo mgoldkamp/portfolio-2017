@@ -403,14 +403,46 @@ template {
   display: none; }
 
 body {
-  background: #aaaaaa;
   font-family: 'Work Sans', sans-serif; }
+
+body {
+  background-color: #263238;
+  height: 100%; }
 
 .pl-container {
   margin: 0 auto;
-  width: 60%;
+  max-width: 500px;
   color: white;
-  text-align: center;
-  margin-top: 200px; }
-  .pl-container h2 {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 100px; }
+  .pl-container h1 {
     font-weight: 300; }
+  .pl-container h2 {
+    font-weight: 300;
+    line-height: 1.6; }
+
+.btn {
+  padding: 15px;
+  width: 200px;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 4px;
+  border: none;
+  background-color: #546E7A;
+  color: white;
+  transition: .4s;
+  font-weight: 600; }
+  .btn:hover {
+    background-color: #0277BD;
+    color: #CFD8DC; }
+  .btn:visted {
+    color: white; }
+
+@media (max-width: 760px) {
+  .pl-container {
+    width: 85%;
+    padding: 30px; } }
