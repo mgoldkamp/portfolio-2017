@@ -52,4 +52,25 @@ body{
     width: 85%;
     padding: 30px;
   }
+
+  .btn{
+    width: 140px;
+  }
+}
+
+
+
+@media (max-width: 370px) {
+  .pl-container{
+    max-width: 95%;
+    padding: 20px;
+
+    h1{
+      font-size: 28px;
+    }
+
+    h2{
+      font-size: 20px;
+    }
+  }
 }

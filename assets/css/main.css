@@ -445,4 +445,15 @@ body {
 @media (max-width: 760px) {
   .pl-container {
     width: 85%;
-    padding: 30px; } }
+    padding: 30px; }
+  .btn {
+    width: 140px; } }
+
+@media (max-width: 370px) {
+  .pl-container {
+    max-width: 95%;
+    padding: 20px; }
+    .pl-container h1 {
+      font-size: 28px; }
+    .pl-container h2 {
+      font-size: 20px; } }
